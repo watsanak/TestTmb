@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.10.11 on win32)" generated="20230605 16:55:28.180" rpa="false" schemaversion="3">
+<suite id="s1" name="Test4" source="e:\TestTMB\testcase\test4.robot">
+<kw name="Open Application" type="SETUP">
+<kw name="Open Application">
+<arg>platformName=Android</arg>
+<arg>appPackage=${APP_PACKAGE}</arg>
+<arg>appActivity=${APP_ACTIVITY}</arg>
+<arg>deviceName=your_device_name</arg>
+<msg timestamp="20230605 16:55:29.663" level="FAIL">Keyword 'Open Application' expected 0 arguments, got 4.</msg>
+<status status="FAIL" starttime="20230605 16:55:29.662" endtime="20230605 16:55:29.667"/>
+</kw>
+<status status="FAIL" starttime="20230605 16:55:29.662" endtime="20230605 16:55:29.668"/>
+</kw>
+<test id="s1-t1" name="Verify Task Creation" line="10">
+<doc>Verify that a task can be created successfully</doc>
+<status status="FAIL" starttime="20230605 16:55:29.669" endtime="20230605 16:55:29.671">Parent suite setup failed:
+Keyword 'Open Application' expected 0 arguments, got 4.</status>
+</test>
+<status status="FAIL" starttime="20230605 16:55:28.189" endtime="20230605 16:55:29.682">Suite setup failed:
+Keyword 'Open Application' expected 0 arguments, got 4.</status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Test4">Test4</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
